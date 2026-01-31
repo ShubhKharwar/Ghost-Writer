@@ -1,0 +1,13 @@
+name: 'Ghost Writer AI'
+description: 'Updates README automatically using Gemini AI'
+author: 'Your Name'
+inputs:
+  gemini_api_key:
+    required: true
+    description: 'Google Gemini API Key'
+  github_token:
+    required: true
+    description: 'GitHub Token'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
