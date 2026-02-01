@@ -14,7 +14,7 @@ async function run() {
 
     const octokit = github.getOctokit(githubToken);
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
     const context = github.context;
 
     if (context.eventName !== 'push') {
