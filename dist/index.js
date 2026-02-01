@@ -24478,7 +24478,7 @@ async function run() {
     }
     const octokit = getOctokit(githubToken);
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     const context3 = context2;
     if (context3.eventName !== "push") {
       info("This action only runs on push events. Skipping.");
