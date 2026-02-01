@@ -70,5 +70,5 @@ async function run() {
     core.setFailed(error.message);
   }
 }
-// Triggering test 100
+// Triggering test 99
 run();
