@@ -1,6 +1,6 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+import * as core from '@actions/core';
+import * as github from '@actions/github';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 async function run() {
   try {
