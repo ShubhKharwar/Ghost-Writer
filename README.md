@@ -1,1 +1,1 @@
-# Ghost Writer
+README updated to include the project title: "Ghost Writer".
